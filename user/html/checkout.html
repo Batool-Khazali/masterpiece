@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="ar-en">
+  <head>
+    <!-- Basic -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- Site Metas -->
+    <meta name="keywords" content="fabric, shops, أقمشة, خياطة, sewing" />
+    <meta name="description" content="a website meant to facilate the proccess of finding and choosing fabric" />
+    <meta name="author" content="Batool Khazali" />
+    <link rel="shortcut icon" href="../images/naseej.png" type="image/x-icon" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>نسيج</title>
+
+    <!-- slider stylesheet -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+    />
+
+    <!-- bootstrap core css -->
+    <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
+
+    <!-- Custom styles for this template -->
+    <link href="../css/style.css" rel="stylesheet" />
+    <!-- responsive style -->
+    <link href="../css/responsive.css" rel="stylesheet" />
+    <link href="../css/style.scss" rel="stylesheet" />
+  </head>
+
+  <body>
+
+    <!-- hero section -->
+
+    <div class="hero_area" >
+      <!-- header section strats -->
+      <header class="header_section">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand d-md-none" href="../index.html"></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class=""></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <a class="navbar-brand d-none d-md-block" href="../index.html"></a>
+              <li class="nav-item ">
+                <a class="nav-link" href="../index.html"
+                  >الصفحة الرئيسة </a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="../html/shop.html"  data-toggle="dropdown"> الأقمشة </a>
+                <div class="dropdown-menu rounded-0 m-0">
+                  <a href="../html/shop.html" class="dropdown-item">حسب نوع القماش</a>
+                  <a href="../html/shop.html" class="dropdown-item">حسب الموقع</a>
+                  <a href="../html/shop.html" class="dropdown-item">حسب المشروع</a>
+                  <a href="../html/shop.html" class="dropdown-item">مستلزمات الخياطة</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../html/coming soon.html"> بترونة </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../html/coming soon.html"> تفصيل </a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="contact.html">اتصل بنا </a>
+              </li>
+
+              <div class="user_option">
+                <a href="../html/login-signup.html">
+                  <span> تسجيل الدخول </span>
+                </a>
+                <a href="../html/profile.html"><i class="fa fa-user" aria-hidden="true"></i></a>
+                <a href="../html/checkout.html">
+                  <i class="fa fa-shopping-bag" aria-hidden="true"></i>
+                </a>
+                <form class="form-inline">
+                  <button class="btn nav_search-btn" type="submit">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                  </button>
+                </form>
+              </div>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!-- end header section -->
+    </div>
+    <!-- end hero area -->
+
+
+
+    <!-- page content -->
+
+    <div class="container-fluid pt-5">
+        <div class="row px-xl-5">
+            <div class="col-lg-8">
+                <div class="mb-4">
+                    <h4 class="font-weight-semi-bold mb-4">عنوان الفوترة</h4>
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <label>الاسم الأول</label>
+                            <input class="form-control" type="text" placeholder="دعاء">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label>اسم العائلة</label>
+                            <input class="form-control" type="text" placeholder="حسين">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label>البريد الالكتروني</label>
+                            <input class="form-control" type="email" placeholder="example@email.com">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label>الهاتف الشخصي</label>
+                            <input class="form-control" type="tel" placeholder="+123 456 789">
+                        </div>
+
+                        <div class="col-md-6 form-group">
+                            <label>المحافظة</label>
+                            <select class="custom-select">
+                                <option selected>اربد</option>
+                                <option>المفرق</option>
+                                <option>عجلون</option>
+                                <option>جرش</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label>اللواء</label>
+                            <input class="form-control" type="text" placeholder="اللواء">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label>الحي</label>
+                            <input class="form-control" type="text" placeholder="الحي">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label>الشارع</label>
+                            <input class="form-control" type="text" placeholder="الشارع">
+                        </div>
+                        <div class="col-md-6 form-group">
+                          <label>رقم البناية</label>
+                          <input class="form-control" type="text" placeholder="رقم البناية">
+                      </div>
+                      <div class="col-md-6 form-group">
+                          <label>رقم الشقة</label>
+                          <input class="form-control" type="text" placeholder="رقم الشقة">
+                      </div>
+                        <div class="col-md-12 form-group">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="newaccount">
+                                <label class="custom-control-label" for="newaccount">أوافق على الشروط و الأحكام</label>
+                            </div>
+                        </div>
+                        <div class="col-md-12 form-group">
+                            <div class="custom-control custom-checkbox">
+                                <input type="checkbox" class="custom-control-input" id="shipto">
+                                <label class="custom-control-label" for="shipto"  data-toggle="collapse" data-target="#shipping-address">الايصال إلى الموقع آخر</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="collapse mb-4" id="shipping-address" style="text-align: right;">
+                    <h4 class="font-weight-semi-bold mb-4">موقع الايصال</h4>
+                    <div class="row">
+                        <div class="col-md-6 form-group">
+                            <label>الاسم الأول</label>
+                            <input class="form-control" type="text" placeholder="دعاء">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label>اسم العائلة</label>
+                            <input class="form-control" type="text" placeholder="حسين">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label>البريد الالكتروني</label>
+                            <input class="form-control" type="email" placeholder="example@email.com">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label>الهاتف الشخصي</label>
+                            <input class="form-control" type="tel" placeholder="+123 456 789">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label>عنوان 1</label>
+                            <input class="form-control" type="text" placeholder="عنوان 1">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label>عنوان 2</label>
+                            <input class="form-control" type="text" placeholder="عنوان 2">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label>المحافظة</label>
+                            <select class="custom-select">
+                                <option selected>اربد</option>
+                                <option>المفرق</option>
+                                <option>عجلون</option>
+                                <option>جرش</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label>اللواء</label>
+                            <input class="form-control" type="text" placeholder="اللواء">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label>الحي</label>
+                            <input class="form-control" type="text" placeholder="الحي">
+                        </div>
+                        <div class="col-md-6 form-group">
+                            <label>الشارع</label>
+                            <input class="form-control" type="text" placeholder="الشارع">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="card border-secondary mb-5" style="text-align: right;">
+                    <div class="card-header bg-secondary border-0" style="background-color: #BBD26D !important;">
+                        <h4 class="font-weight-semi-bold m-0">الطلب</h4>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="font-weight-medium mb-3">المشتريات</h5>
+                        <div class="d-flex justify-content-between">
+                            <p>منتج 1</p>
+                            <p>10 دينار</p>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <p>منتج 2</p>
+                            <p>5 دينار</p>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <p>منتج 3</p>
+                            <p>7 دينار</p>
+                        </div>
+                        <hr class="mt-0">
+                        <div class="d-flex justify-content-between mb-3 pt-1">
+                            <h6 class="font-weight-medium">المجموع</h6>
+                            <h6 class="font-weight-medium">22 دينار</h6>
+                        </div>
+                        <div class="d-flex justify-content-between">
+                            <h6 class="font-weight-medium">التوصيل</h6>
+                            <h6 class="font-weight-medium">3 دينار</h6>
+                        </div>
+                    </div>
+                    <div class="card-footer border-secondary bg-transparent">
+                        <div class="d-flex justify-content-between mt-2">
+                            <h5 class="font-weight-bold">المجموع</h5>
+                            <h5 class="font-weight-bold">25 دينار</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="card border-secondary mb-5" style="text-align: right;">
+                    <div class="card-header bg-secondary border-0" style="background-color: #BBD26D !important;">
+                        <h4 class="font-weight-semi-bold m-0">طريقة الدفع</h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group">
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" name="payment" id="paypal">
+                                <label class="custom-control-label" for="paypal">الدفع عند الاستلام</label>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" name="payment" id="directcheck">
+                                <label class="custom-control-label" for="directcheck">بطاقة ائتمان </label>
+                            </div>
+                        </div>
+                        <div class="">
+                            <div class="custom-control custom-radio">
+                                <input type="radio" class="custom-control-input" name="payment" id="banktransfer">
+                                <label class="custom-control-label" for="banktransfer">تطبيق cliq </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer border-secondary bg-transparent">
+                        <button class="btn btn-lg btn-block btn-primary font-weight-bold my-3 py-3" style="background-color: #606C38; border-color: #606C38;"
+                        >اتمام الطلب
+
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- end of page content -->
+ 
+
+    
+  
+    <!-- info section -->
+
+    <section class="info_section layout_padding2-top">
+      <div class="social_container">
+
+        <div class="social_box">
+
+          <div class="SNS-card">
+            <span>مواقع التواصل</span>
+            <a class="SNS-social-link" href="facebook.com">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a class="SNS-social-link" href="twitter.com">
+              <i class="fa-brands fa-x-twitter"></i>
+            </a>
+            <a class="SNS-social-link" href="instagram">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a class="SNS-social-link" href="tiktok.com">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      
+      <div class="info_container">
+        <div class="container">
+          <div class="row">
+            
+            <div class="col-md-6 col-lg-3">
+              <p>
+                <a href="../html/coming soon.html">من نحن</a>
+              </p>
+              <p>
+                <a href="../html/contact.html">تواصل معنا.</a>
+              </p>
+              <p>
+                <a href="#">سياسة الخصوصية</a>
+              </p>
+              <p>
+                <a href="#">التوصيل و الشحن</a>
+              </p>
+              <p>
+                <a href="#">طرق الدفع</a>
+              </p>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+              <p>
+                <a href="../html/shop.html">أنواع الاٌقمشة</a>
+              </p>
+              <p>
+                <a href="../html/shop.html">المتاجر</a>
+              </p>
+              <p>
+                <a href="../html/shop.html">مستلزمات الخياطة</a>
+              </p>
+              <p>
+                <a href="../html/coming soon.html">بترونة</a>
+              </p>
+              <p>
+                <a href="../html/coming soon.html">تفصيل الملابس</a>
+              </p>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+              <div class="info_form">
+                <h5>النشرة الاخبارية</h5>
+                <span >قم بالاشتراك بنشرتنا الالكرونية للحصول على آخر الأخبار و الخصومات</span>
+                <form action="post">
+                  <input class="footerInput" type="email" placeholder="البريد الالكتروني" />
+                  <button class="footerBtn">اشتراك</button>
+                </form>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3">
+              <h6>تواصلوا معنا</h6>
+              <div class="info_link-box">
+                <a href="">
+                  <i class="fa fa-map-marker" aria-hidden="true"></i>
+                  <span> الأردن - اربد </span>
+                </a>
+                <a href="">
+                  <i class="fa fa-phone" aria-hidden="true"></i>
+                  <span>+962 12345678901</span>
+                </a>
+                <a href="">
+                  <i class="fa fa-envelope" aria-hidden="true"></i>
+                  <span> demo@gmail.com</span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- footer section -->
+      <footer class="footer_section">
+        <div class="container">
+          <p>
+            &copy; <span id="displayYear"></span> جميع الحقوق محفوظة | بتول خزعلي 
+          </p>
+        </div>
+      </footer>
+      <!-- footer section -->
+    </section>
+
+    <!-- end info section -->
+
+    <script src="../js/jquery-3.4.1.min.js"></script>
+    <script src="../js/bootstrap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="../js/custom.js"></script>
+  </body>
+</html>
